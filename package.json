@@ -1,0 +1,18 @@
+{
+  "name": "lib-js-util-schema",
+  "version": "0.0.1",
+  "description": "methods to convert bfx objects to and from array",
+  "scripts":{
+    "test": "mocha ./test/index.js",
+    "test:watch": "mocha ./test/index.js --watch ./"
+  },
+  "main": "src/index.js",
+  "repository": "https://github.com/bitfinexcom/lib-js-util-schema",
+  "author": "hems <hems.inlet@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
